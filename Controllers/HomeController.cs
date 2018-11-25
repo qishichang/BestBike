@@ -17,7 +17,7 @@ namespace BestBikeApp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "BestBike is the best Bike Dealer in Northeast.";
 
             return View();
         }
